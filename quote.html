@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+
+		<link rel="stylesheet" href="styles.css">
 		<meta charset="utf-8" />
 		<link rel="shortcut icon" type="image/png" href="assets/images/rocketElevators/icon.png">
 		<title>Rocket Elevators</title>
@@ -123,8 +125,8 @@
 				<div class="container">
 					<form class="validate" id="quote-form">
 
-						<div class="select-building-type card card-default">
-							<div class="card-heading card-heading-transparent">
+						<div class="select-building-type card card-default ">
+							<div class="card-heading card-heading-transparent" id="cardcolor"> 
 								<label for="building-type" class="card-title"> 
 									<h3>
 										<span style="color:rgb(10, 101, 160); font-weight:bolder">STEP 1 |</span> Select Type of Building
@@ -134,9 +136,9 @@
 							<div class="card-block" style="margin: 20px">
 								<select name="building-type" id="building-type" class="form-control pointer required">
 									<option>---Select---</option>
-									<option id="residential" value="residential">Residential</option>
-									<option id="commercial" value="commercial">Commercial</option>
-									<option id="industrial" value="industrial">Industrial</option>
+									<option id="residential" value="residential">Residential</option> style=background-color: lightblue;">Residential</option>
+									<option id="commercial" value="commercial">Commercial</option>     style="background-color:lightcoral;">Commercial</option>
+									<option id="industrial" value="industrial">Industrial</option> style="background-color: lightgray;">Industrial</option>
 								</select>
 							</div>
 						</div>
@@ -398,6 +400,7 @@
 				this.reset();
 			});
 		</script>
-
+		<script src="index.js"></script>
+		<script src="quote.js"></script>
 	</body>
 </html>

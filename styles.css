@@ -1,0 +1,19 @@
+h2 {
+    font-family: 'Roboto Slab', serif;    
+}
+ br>
+#news {
+    color:brown; 
+}
+
+.highlight {
+    color: red; font-weight: bold;
+}
+
+.saturday {
+    color: blue; font-weight: bolder;
+}
+
+.select-building-type card card-default {
+     background-color: blue;
+}
